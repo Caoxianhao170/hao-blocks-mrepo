@@ -5,7 +5,8 @@
   "scripts": {
     "build:atomBlocks": "pnpm run -C packages/atomBlocks build",
     "changeset": "changeset",
-    "packages-version": "changeset version"
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
   },
   "publishConfig": {
     "access": "public",
