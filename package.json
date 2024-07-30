@@ -1,0 +1,18 @@
+{
+  "name": "hao-blocks-mrepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:atomBlocks": "pnpm run -C packages/atomBlocks build",
+    "changeset": "changeset",
+    "packages-version": "changeset version",
+    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7"
+  }
+}
