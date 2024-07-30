@@ -1,16 +1,16 @@
 {
-  "name": "hao-blocks-mrepo",
+  "name": "xianhaooo",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build:atomBlocks": "pnpm run -C packages/atomBlocks build",
+    "build:atomBlocks": "pnpm run -C packages/atomblocks build",
     "changeset": "changeset",
     "packages-version": "changeset version",
     "publish": "changeset publish --registry=https://registry.npmjs.com/"
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.com/"
   },
   "keywords": [],
   "author": "",

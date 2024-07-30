@@ -44,6 +44,6 @@ const blocksMapSymbol = Symbol('blocksMap');
 export default {
   install(app: any)  {
       app.provide(blocksMapSymbol, blocksMap);
-      app.conifg.globalProperties.$blocksMap =  blocksMap;
+      app.config.globalProperties.$blocksMap =  blocksMap;
   }
 }
