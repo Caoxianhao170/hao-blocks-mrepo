@@ -7,7 +7,7 @@
     "build:atomBlocks": "pnpm run -C packages/atomBlocks build",
     "changeset": "changeset",
     "packages-version": "changeset version",
-    "publish": "changeset publish --registry=https://registry.npmjs.com/"
+    "publish": "changeset publish --registry=https://registry.npmjs.org/"
   },
   "keywords": [],
   "author": "",
